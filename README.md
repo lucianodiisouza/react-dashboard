@@ -8,8 +8,6 @@ npm install
 
 (make sure that you have NodeJS already installed on your localMachine/server)
 
-## Demo
-You can access this React Application hosted and deployed at Heroku using this link: https://react-dashboard.herokuapp.com/
 ## Notes
 The API that i used, is an public API, provided from DevMedia. It can be acessed by this URL:
 http://www.devup.com.br/php/api-dashboard/api/
