@@ -4,6 +4,7 @@ import './App.css';
 import MenuSuperior from './components/MenuSuperior'
 import Resumo from './components/Resumo'
 import Consultas from './components/Consultas'
+import Faturamento from './components/Faturamento'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="container-fluid">
         <Resumo />
         <Consultas />
+        <Faturamento />
       </div>
 
     </div>
