@@ -5,7 +5,7 @@ export default class MenuSuperior extends Component {
         return(
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <Link to="/" className="navbar-brand">TheCodeLovers</Link>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" >
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" >
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
