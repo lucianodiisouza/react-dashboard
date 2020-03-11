@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Switch, Route } from 'react-router-dom'
 
 import MenuSuperior from './components/MenuSuperior'
 import Resumo from './components/Resumo'
@@ -11,9 +12,15 @@ function App() {
     <div>
       <MenuSuperior />
       <div className="container-fluid">
-        <Resumo />
-        <Consultas />
-        <Faturamento />
+        <div className="row">
+          <div className="col">
+            <Switch>
+              <Route exact path="/"  component={Resumo} />
+              <Route path="/consultas" component={Consultas} />
+              <Route path="/faturamento" component={Faturamento} />
+            </Switch>
+          </div>
+        </div>
       </div>
 
     </div>
