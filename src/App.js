@@ -3,12 +3,17 @@ import './App.css';
 
 import MenuSuperior from './components/MenuSuperior'
 import Resumo from './components/Resumo'
+import Consultas from './components/Consultas'
 
 function App() {
   return (
     <div>
       <MenuSuperior />
-      <Resumo />
+      <div className="container-fluid">
+        <Resumo />
+        <Consultas />
+      </div>
+
     </div>
   );
 }
